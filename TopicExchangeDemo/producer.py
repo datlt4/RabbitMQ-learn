@@ -27,7 +27,7 @@ def establish_connection():
     """Establish connection to RabbitMQ with retry logic"""
     connection = pika.BlockingConnection(pika.ConnectionParameters(
         host="rabbitmq",
-        port=8009,
+        port=8009, # default 5672
         virtual_host="/",
         credentials=pika.PlainCredentials("datlt4", "Hz8k76Wj5qQrqkV"),
         socket_timeout=5))

@@ -2,6 +2,11 @@
 
 ## RabbitMQ
 
+- [Part 1: RabbitMQ for beginners - What is RabbitMQ?](https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html)
+- [Part 2: RabbitMQ for beginners - Sample code](https://www.cloudamqp.com/blog/part2-rabbitmq-for-beginners_example-and-sample-code.html)
+- [Part 3: The RabbitMQ Management Interface](https://www.cloudamqp.com/blog/part3-rabbitmq-for-beginners_the-management-interface.html)
+- [Part 4: RabbitMQ Exchanges, routing keys and bindings](https://www.cloudamqp.com/blog/part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
+
 ### Standard RabbitMQ message flow
 
 1. The producer publishes a message to the exchange.
