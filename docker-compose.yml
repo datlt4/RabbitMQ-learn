@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    ports:
+      - "8009:5672"   # AMQP port mapping
+      - "8010:15672"  # Management console port mapping
+    environment:
+      RABBITMQ_DEFAULT_USER: datlt4
+      RABBITMQ_DEFAULT_PASS: Hz8k76Wj5qQrqkV
+    volumes:
+      - /mnt/hdd_1tb/rabbitmq_volume:/var/lib/rabbitmq
+    restart: always  # Ensure the container is restarted automatically if it stops
